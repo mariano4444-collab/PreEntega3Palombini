@@ -1,0 +1,68 @@
+/* Inicio Variables*/
+/*Colores*/
+/* Fonts */
+/* Fin Variables*/
+@import url("https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&family=ZCOOL+XiaoWei&display=swap");
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* PAGINA INICIO */
+/* header inicio */
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  font-size: 18px;
+}
+
+.navbar {
+  background-color: #000 !important;
+}
+
+.navbar-brand img {
+  width: 60px;
+}
+
+.navbar-nav a {
+  color: #fff !important;
+}
+
+.navbar-nav a:hover {
+  color: #6EA4BF !important;
+}
+
+/* mediaquery inicio */
+@media (max-width: 576px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar-collapse ul {
+    text-align: center;
+  }
+}
+@media (min-width: 576px) {
+  .navbar {
+    width: 800px;
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-collapse ul {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-collapse li {
+    margin: 10px;
+  }
+  .navbar-collapse a {
+    padding: 10px;
+  }
+}
+/* fin mediaqury */
+/* header fin *//*# sourceMappingURL=style.css.map */
