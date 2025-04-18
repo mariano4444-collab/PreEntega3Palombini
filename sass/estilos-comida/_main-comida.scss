@@ -21,12 +21,15 @@
 
     p {
         color: $colorblanco;
+        font-family: $fuentesecundaria;
+        font-weight: $pesofuentesecundaria;
     }
 
     h2 {
         margin-bottom: 20px;
         font-size: 30px;
         font-weight: 500;
+        font-family: $fuenteprincipal;
     }
 
     a {

@@ -502,11 +502,14 @@ header {
 }
 .main-comida-box1 p {
   color: #fff;
+  font-family: "Winky Sans", sans-serif;
+  font-weight: 300;
 }
 .main-comida-box1 h2 {
   margin-bottom: 20px;
   font-size: 30px;
   font-weight: 500;
+  font-family: "ZCOOL XiaoWei", sans-serif;
 }
 .main-comida-box1 a {
   text-decoration: none;
@@ -528,5 +531,102 @@ header {
 }
 /* fin mediaquery */
 /* main fin */
+/* section-1 inicio */
+.sec-1-comida {
+  padding: 15px 25px;
+  background-color: #397367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #fff;
+}
+.sec-1-comida h2 {
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+  font-size: 40px;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  padding: 25px 0px 50px 0px;
+}
+
+.sec-1-comida-div1 {
+  max-width: 700px;
+}
+
+.sec-1-comida-box1 {
+  background-image: url(../img/Comida/img3-comida-sec2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  border: 5px solid #397367;
+  box-shadow: inset 0px 0px 0px 3px #fff;
+}
+
+.sec-1-comida-box2 {
+  background-image: url(../img/Comida/img2-comida-sec2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  border: 5px solid #397367;
+  box-shadow: inset 0px 0px 0px 3px #fff;
+}
+
+.sec-1-comida-box3 {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Winky Sans", sans-serif;
+  font-weight: 300;
+}
+
+.sec-1-comida-box4 {
+  background-image: url(../img/Comida/img4-comida-sec2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  border: 5px solid #397367;
+  box-shadow: inset 0px 0px 0px 3px #fff;
+}
+
+/* inicio mediaquery */
+@media (min-width: 420px) {
+  .main-comida {
+    justify-content: flex-end;
+    padding-right: 25px;
+  }
+}
+@media (min-width: 576px) {
+  .sec-1-comida-box4 {
+    height: 400px;
+  }
+  .sec-1-comida-box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 700px) {
+  .sec-1-comida-box1,
+  .sec-1-comida-box2 {
+    height: 300px;
+  }
+  .sec-1-comida-box3 p {
+    font-size: 20px;
+  }
+  .sec-1-comida-box4 {
+    height: 500px;
+  }
+}
+@media (min-width: 820px) {
+  .sec-1-comida-box3 {
+    padding-top: 10px;
+    padding-right: 25px;
+  }
+  .sec-1-comida-box3 p {
+    font-size: 21px;
+  }
+}
+/* fin mediauqery */
+/* section-1 fin */
 
 /*# sourceMappingURL=style.css.map */
