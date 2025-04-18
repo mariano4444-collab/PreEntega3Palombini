@@ -131,11 +131,6 @@ header {
   display: flex;
   justify-content: center;
 }
-
-.sec-1-inicio-div1 {
-  max-width: 900px;
-}
-
 .sec-1-inicio h2 {
   color: #fff;
   text-align: center;
@@ -143,14 +138,23 @@ header {
   font-size: 40px;
   padding: 25px 0px 50px 0px;
 }
+.sec-1-inicio p {
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.sec-1-inicio-div1 {
+  max-width: 900px;
+}
 
 .sec-1-inicio-box1 {
   background-image: url(../img/Inicio/img1-inicio-sec3.jpg);
   background-size: cover;
   background-position: center;
   height: 300px;
-  border: 5px solid #6EA4BF;
   box-shadow: inset 0px 0px 0px 3px #fff;
+  border: 5px solid #6EA4BF;
 }
 
 .sec-1-inicio-box2 {
@@ -158,14 +162,8 @@ header {
   background-size: cover;
   background-position: center;
   height: 300px;
-  border: 5px solid #6EA4BF;
   box-shadow: inset 0px 0px 0px 3px #fff;
-}
-
-.sec-1-inicio p {
-  color: #fff;
-  text-align: center;
-  margin-top: 40px;
+  border: 5px solid #6EA4BF;
 }
 
 /* inicio mediaquery */
@@ -191,7 +189,6 @@ header {
   align-items: center;
   justify-content: center;
 }
-
 .sec-2-inicio h2 {
   color: #000;
   text-align: center;
@@ -231,5 +228,61 @@ header {
 }
 /* fin mediaquery */
 /* section-2 fin */
+/* section-3 inicio */
+.sec-3-inicio {
+  background-color: #ECFEE8;
+  border-top: 2px solid #fff;
+  padding: 15px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec-3-inicio h2 {
+  color: #000;
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  padding: 25px 0px 50px 0px;
+}
+
+.sec-3-inicio-div1 {
+  max-width: 900px;
+}
+
+.sec-3-inicio p {
+  text-align: center;
+}
+
+.sec-3-inicio-box1 {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.sec-3-inicio-img1 {
+  background-image: url(../img/Inicio/img1-inicio-sec4.png);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  border: 2px solid #000;
+}
+
+/* inicio mediaquery */
+@media (min-width: 820px) {
+  .sec-3-inicio-box1 p {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  .sec-3-inicio-img1 {
+    height: 350px;
+  }
+  .sec-3-inicio-box1 p {
+    font-size: 22px;
+  }
+}
+/* fin mediaquery */
+/* section-3 fin */
 
 /*# sourceMappingURL=style.css.map */

@@ -6,18 +6,24 @@
     padding: 15px 25px;
     display: flex;
     justify-content: center;
+
+    h2 {
+        color: $colorblanco;
+        text-align: center;
+        font-weight: 500;
+        font-size: 40px;
+        padding: 25px 0px 50px 0px;
+    }
+
+    p {
+        color: $colorblanco;
+        text-align: center;
+        margin-top: 40px;
+    }
 }
 
 .sec-1-inicio-div1 {
     max-width: 900px;
-}
-
-.sec-1-inicio h2 {
-    color: $colorblanco;
-    text-align: center;
-    font-weight: 500;
-    font-size: 40px;
-    padding: 25px 0px 50px 0px;
 }
 
 .sec-1-inicio-box1 {
@@ -25,8 +31,8 @@
     background-size: cover;
     background-position: center;
     height: 300px;
-    border: 5px solid $color-primario-inicio;
     box-shadow: inset 0px 0px 0px 3px $colorblanco;
+    border: 5px solid $color-primario-inicio;
 }
 
 .sec-1-inicio-box2 {
@@ -34,14 +40,8 @@
     background-size: cover;
     background-position: center;
     height: 300px;
-    border: 5px solid $color-primario-inicio;
     box-shadow: inset 0px 0px 0px 3px $colorblanco;
-}
-
-.sec-1-inicio p {
-    color: $colorblanco;
-    text-align: center;
-    margin-top: 40px;
+    border: 5px solid $color-primario-inicio;
 }
 
 /* inicio mediaquery */
