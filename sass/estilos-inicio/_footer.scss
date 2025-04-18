@@ -9,14 +9,19 @@ footer {
 .footer-box1 {
     text-align: center;
     border-bottom: 1px solid $colornegro;
+    font-family: $fuentesecundaria;
+    font-weight: $pesofuentesecundaria;
 }
 
 .footer-box1 h3 {
     font-weight: bold;
+    font-family: $fuenteprincipal;
 }
 
 .footer-box2 {
     text-align: center;
+    font-family: $fuentesecundaria;
+    font-weight: $pesofuentesecundaria;
     margin-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid $colornegro;
@@ -24,6 +29,7 @@ footer {
 
 .footer-box2 h3 {
     font-weight: bold;
+    font-family: $fuenteprincipal;
 }
 
 .redes {
@@ -55,6 +61,7 @@ footer {
     color: $colornegro;
     font-size: 25px;
     font-weight: 500;
+    font-family: $fuenteprincipal;
 }
 
 .footer-box3 a:hover {
@@ -67,6 +74,8 @@ footer {
     padding: 20px 0px;
     border-top: 1px solid $colornegro;
     text-align: center;
+    font-family: $fuentesecundaria;
+    font-weight: $pesofuentesecundaria;
 }
 
 /* inicio mediaquery */

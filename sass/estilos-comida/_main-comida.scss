@@ -1,0 +1,55 @@
+/* main inicio */
+
+.main-comida {
+    background-image: url(../img/Comida/img1-comida-sec1.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: 1px solid $colorblanco;
+}
+
+.main-comida-box1 {
+    background-color: $color-primario-comida;
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 3px solid $colorblanco;
+
+    p {
+        color: $colorblanco;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-primario-comida;
+        background-color: $colornegro;
+        font-size: 15px;
+        font-weight: bold;
+        border: 2px solid $colorblanco;
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+}
+
+/* inicio mediaquery */
+
+@media (min-width:420px) {
+    .main-comida {
+        justify-content: end;
+        padding-right: 25px;
+    }
+}
+
+/* fin mediaquery */
+
+/* main fin */
