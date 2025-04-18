@@ -15,6 +15,7 @@
         font-weight: 500;
         font-size: 40px;
         padding: 25px 0px 50px 0px;
+        font-family: $fuenteprincipal;
     }
 }
 
@@ -25,6 +26,8 @@
 
 .sec-3-inicio p {
     text-align: center;
+    font-family: $fuentesecundaria;
+    font-weight: $pesofuentesecundaria;
 }
 
 .sec-3-inicio-box1 {
@@ -38,7 +41,7 @@
     background-size: cover;
     background-position: center;
     height: 300px;
-    border: 2px solid $colornegro;
+    border: 3px solid $colornegro;
 }
 
 /* inicio mediaquery */

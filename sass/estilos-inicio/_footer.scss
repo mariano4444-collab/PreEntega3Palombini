@@ -1,0 +1,111 @@
+/* footer inicio */
+
+footer {
+    border-top: 2px solid $colorblanco;
+    padding: 15px 25px 0px 25px;
+    background-color: $color-cuatro-inicio;
+}
+
+.footer-box1 {
+    text-align: center;
+    border-bottom: 1px solid $colornegro;
+}
+
+.footer-box1 h3 {
+    font-weight: bold;
+}
+
+.footer-box2 {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $colornegro;
+}
+
+.footer-box2 h3 {
+    font-weight: bold;
+}
+
+.redes {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.redes a{
+    color: $colornegro;
+    margin: 0px 2px;
+}
+
+.redes a:hover{
+    color: $colorblanco;
+}
+
+.footer-box3 {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.footer-box3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-box3 a {
+    text-decoration: none;
+    color: $colornegro;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.footer-box3 a:hover {
+    color: $colorblanco;
+}
+
+.fila-2-footer p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 20px 0px;
+    border-top: 1px solid $colornegro;
+    text-align: center;
+}
+
+/* inicio mediaquery */
+
+@media (min-width:576px) {
+    .footer-box1 {
+        border-bottom: none;
+        border-right: 1px solid $colornegro;
+    }
+
+    .footer-box2 {
+        border-bottom: none;
+        border-right: 1px solid $colornegro;
+    }
+}
+
+/* fin mediaquery */
+
+/* footer fin */
+
+
+/* up inicio */
+
+.up {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: $colorblanco;
+    border: 2px solid $color-primario-inicio;
+    border-radius: 50%;
+    padding: 0px 7px;
+    color: $color-primario-inicio;
+    font-size: 25px;
+}
+
+.up:hover{
+    color: $color-secundario-inicio;
+    border-color: $color-secundario-inicio;
+    background-color: $colornegro;
+}
+
+/* up fin */
