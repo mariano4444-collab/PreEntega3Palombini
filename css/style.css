@@ -33,12 +33,12 @@ header {
   width: 60px;
 }
 
-.navbar-nav a {
+.navbar-inicio a {
   color: #fff !important;
   font-family: "ZCOOL XiaoWei", sans-serif;
 }
 
-.navbar-nav a:hover {
+.navbar-inicio a:hover {
   color: #6EA4BF !important;
 }
 
@@ -436,12 +436,12 @@ header {
   width: 60px;
 }
 
-.navbar-nav a {
+.navbar-comida a {
   color: #fff !important;
   font-family: "ZCOOL XiaoWei", sans-serif;
 }
 
-.navbar-nav a:hover {
+.navbar-comida a:hover {
   color: #397367 !important;
 }
 
@@ -1039,7 +1039,7 @@ header {
   font-family: "ZCOOL XiaoWei", sans-serif;
 }
 
-.navbar-nav a:hover {
+.navbar-nosotros a:hover {
   color: #6FD08C !important;
 }
 
@@ -1212,6 +1212,86 @@ header {
 }
 /* fin mediaquery */
 /* section-1 fin */
+/* section-2 inicio */
+.sec-2-nosotros {
+  border-top: 2px solid #fff;
+  background-color: #FFC53A;
+}
+.sec-2-nosotros h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  padding: 25px 0px 50px 0px;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+}
+
+.box-equipo {
+  text-align: center;
+  height: auto;
+}
+.box-equipo h3 {
+  padding-top: 10px;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+}
+.box-equipo h4 {
+  padding-bottom: 10px;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+}
+
+.box-border-nosotros, .sec-2-nosotros-img6, .sec-2-nosotros-img5, .sec-2-nosotros-img4, .sec-2-nosotros-img3, .sec-2-nosotros-img2, .sec-2-nosotros-img1 {
+  border: 3px solid #fff;
+}
+
+.sec-2-nosotros-img1 {
+  background-image: url(../img/Nosotros/img3-nosotros-sec2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.sec-2-nosotros-img2 {
+  background-image: url(../img/Nosotros/img4-nosotros-sec2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.sec-2-nosotros-img3 {
+  background-image: url(../img/Nosotros/img5-nosotros-sec2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.sec-2-nosotros-img4 {
+  background-image: url(../img/Nosotros/img6-nosotros-sec2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.sec-2-nosotros-img5 {
+  background-image: url(../img/Nosotros/img7-nosotros-sec3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.sec-2-nosotros-img6 {
+  background-image: url(../img/Nosotros/img8-nosotros-sec2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+/*inicio mediaquery*/
+@media (min-width: 428px) and (max-width: 575px) {
+  .equipo-img {
+    height: 500px;
+  }
+}
+/*fin mediaquery*/
+/* section-2 fin */
 /* footer inicio */
 footer {
   border-top: 2px solid #fff;
