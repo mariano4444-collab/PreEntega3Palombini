@@ -1,0 +1,69 @@
+/*inicio main*/
+
+.main-nosotros {
+    background-image: url(../img/Nosotros/img1-nosotros-sec1.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: 1px solid $colorblanco;
+}
+
+.main-nosotros-box1 {
+    width: 280px;
+    background-color: $color-primario-nosotros;
+    border: 2px solid $colorblanco;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: 500;
+        color: $colornegro;
+        font-family: $fuenteprincipal;
+    }
+
+    p {
+        font-size: 14px;
+        color: $colorblanco;
+        font-family: $fuentesecundaria;
+        font-weight: $pesofuentesecundaria;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-primario-nosotros;
+        background-color: $colornegro;
+        font-size: 15px;
+        font-weight: bold;
+        border: 2px solid $colorblanco;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-family: $fuentesecundaria;
+    }
+
+}
+
+
+
+
+
+
+
+/* inicio mediaquery */
+
+@media (min-width:420px) {
+    .main-nosotros {
+        justify-content: flex-end;
+        padding-right: 25px;
+    }
+}
+
+/* fin mediaquery */
+
+/*fin main*/
