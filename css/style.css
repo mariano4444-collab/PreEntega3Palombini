@@ -1129,6 +1129,89 @@ header {
 }
 /* fin mediaquery */
 /*fin main*/
+/* section-1 inicio */
+.sec-1-nosotros {
+  border-top: 2px solid #fff;
+  background-color: #6FD08C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-1-nosotros h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  padding: 25px 0px 50px 0px;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+}
+
+.sec-1-nosotros-div1 {
+  max-width: 800px;
+}
+
+.sec-1-nosotros-img1 {
+  background-image: url(../img/Nosotros/lara.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  border: 3px solid #fff;
+}
+
+.sec-1-nosotros-box1 {
+  text-align: center;
+}
+.sec-1-nosotros-box1 h3 {
+  margin-top: 15px;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+}
+.sec-1-nosotros-box1 h4 {
+  margin-bottom: 15px;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+}
+
+.sec-1-nosotros-img2 {
+  background-image: url(../img/Nosotros/george.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  border: 3px solid #fff;
+}
+
+.sec-1-nosotros-box2 {
+  text-align: center;
+}
+.sec-1-nosotros-box2 h3 {
+  margin-top: 15px;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+}
+.sec-1-nosotros-box2 h4 {
+  margin-bottom: 15px;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+}
+
+.sec-1-nosotros-fila2 {
+  text-align: center;
+}
+.sec-1-nosotros-fila2 p {
+  padding: 50px 60px 70px 60px;
+  font-family: "Winky Sans", sans-serif;
+  font-weight: 300;
+}
+
+/* inicio mediaquery */
+@media (min-width: 476px) {
+  .sec-1-nosotros-img1,
+  .sec-1-nosotros-img2 {
+    height: 450px;
+  }
+}
+@media (min-width: 675px) {
+  .sec-1-nosotros-fila2 p {
+    font-size: 22px;
+  }
+}
+/* fin mediaquery */
+/* section-1 fin */
 /* footer inicio */
 footer {
   border-top: 2px solid #fff;
