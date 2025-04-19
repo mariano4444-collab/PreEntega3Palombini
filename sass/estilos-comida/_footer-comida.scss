@@ -3,7 +3,7 @@
 footer {
     border-top: 2px solid $colorblanco;
     padding: 15px 25px 0px 25px;
-    background-color: $color-cuatro-inicio;
+    background-color: $color-cuatro-comida;
 }
 
 .footer-box1 {
@@ -99,21 +99,21 @@ footer {
 
 /* up inicio */
 
-.up {
+.up-comida {
     position: fixed;
     bottom: 50px;
     right: 50px;
     background-color: $colorblanco;
-    border: 2px solid $color-primario-inicio;
+    border: 2px solid $color-primario-comida;
     border-radius: 50%;
     padding: 0px 7px;
     color: $color-primario-inicio;
     font-size: 25px;
 }
 
-.up:hover{
-    color: $color-secundario-inicio;
-    border-color: $color-secundario-inicio;
+.up-comida:hover{
+    color: $color-secundario-comida;
+    border-color: $color-secundario-comida;
     background-color: $colornegro;
 }
 
