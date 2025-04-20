@@ -1527,6 +1527,67 @@ header {
 }
 /* fin mediaquery */
 /*fin main*/
+/*seccion-1 inicio*/
+.sec-1-mentalidad {
+  border-top: 2px solid #fff;
+  background-color: #CF5C36;
+  text-align: center;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sec-1-mentalidad h2 {
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  font-size: 40px;
+  padding: 25px 0px 60px 0px;
+  font-weight: 500;
+  color: #000;
+}
+
+.fila-1-mentalidad {
+  max-width: 800px;
+}
+
+.img-1-mentalidad {
+  background-image: url(../img/Mentalidad/img1-mentalidad-sec2.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  height: 300px;
+}
+
+.box-2-mentalidad p {
+  font-family: "Winky Sans", sans-serif;
+  font-weight: 300;
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #000;
+  color: #fff;
+}
+
+/*inicio mediaquery*/
+@media (min-width: 576px) {
+  .box-2-mentalidad {
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width: 792px) {
+  .box-2-mentalidad p {
+    font-size: 20px;
+  }
+}
+@media (min-width: 884px) {
+  .box-2-mentalidad p {
+    padding: 20px;
+  }
+}
+/*fin mediaquery*/
+/*seccion-1 fin*/
 /* footer inicio */
 footer {
   border-top: 2px solid #fff;
